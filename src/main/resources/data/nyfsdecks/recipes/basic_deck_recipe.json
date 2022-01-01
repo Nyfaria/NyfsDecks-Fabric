@@ -1,0 +1,21 @@
+{
+  "type": "nyfsdecks:deckrecipe",
+  "pattern": [
+    "LLL",
+    "L#L",
+    "LLL"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:acacia_button"
+    },
+    "L": {
+      "item": "minecraft:paper"
+    }
+  },
+  "result": {
+    "item": "nyfsdecks:basic_deck",
+    "count": 1
+  },
+  "group": "tools"
+}

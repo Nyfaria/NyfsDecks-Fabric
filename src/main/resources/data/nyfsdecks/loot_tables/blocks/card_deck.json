@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "nyfsdecks:basic_deck"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:copy_nbt",
+          "source": "block_entity",
+          "ops": [
+            {
+              "source": "invIndex",
+              "target": "invIndex",
+              "op": "replace"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "nyfsdecks:item/card",
+  "textures": {
+    "layer1": "nyfsdecks:item/card_overlay_clubs"
+  }
+}

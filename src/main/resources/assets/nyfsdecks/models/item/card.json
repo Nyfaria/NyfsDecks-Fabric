@@ -1,0 +1,48 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "nyfsdecks:item/card",
+        "layer1": "nyfsdecks:item/card_overlay_back"
+	},
+  "display":{
+    "gui": {
+      "translation": [0, 0, -100],
+      "scale": [1, 1, 1]
+    },
+    "fixed": {
+      "translation": [0, 0, -100],
+      "scale": [1, 1, 1]
+    }
+
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "nyfsdecks:suit": 0,
+        "nyfsdecks:location": 1
+      },
+      "model": "nyfsdecks:item/card_hearts"
+    },
+    {
+      "predicate": {
+        "nyfsdecks:suit": 0.3,
+        "nyfsdecks:location": 1
+      },
+      "model": "nyfsdecks:item/card_spades"
+    },
+    {
+      "predicate": {
+        "nyfsdecks:suit": 0.6,
+        "nyfsdecks:location": 1
+      },
+      "model": "nyfsdecks:item/card_diamonds"
+    },
+    {
+      "predicate": {
+        "nyfsdecks:suit": 1,
+        "nyfsdecks:location": 1
+      },
+      "model": "nyfsdecks:item/card_clubs"
+    }
+  ]
+}

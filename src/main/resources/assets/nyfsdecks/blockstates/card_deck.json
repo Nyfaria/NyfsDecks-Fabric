@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "nyfsdecks:block/card_deck"
+      }
+    ]
+  }
+}

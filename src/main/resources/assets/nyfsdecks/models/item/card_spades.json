@@ -1,0 +1,7 @@
+{
+  "parent": "nyfsdecks:item/card",
+  "textures": {
+    "layer0": "nyfsdecks:item/card",
+    "layer1": "nyfsdecks:item/card_overlay_spades"
+  }
+}

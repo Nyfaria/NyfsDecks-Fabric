@@ -1,38 +1,31 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "nyfsdecks",
   "version": "${version}",
-
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "NyfsDecks",
+  "description": "I need more inventory space!",
   "authors": [
-    "Me!"
+    "Nyfaria"
   ],
-  "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
-  },
+  "contributors": [
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
-
+  ],
+  "license": "MIT",
+  "icon": "assets/nyfsdecks/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.nyfaria.nyfsdecks.NyfsDecks"
+    ],
+    "client": [
+      "com.nyfaria.nyfsdecks.NyfsDecksClient"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "nyfsdecks.mixins.json"
   ],
-
   "depends": {
-    "fabricloader": ">=0.11.3",
-    "fabric": "*",
-    "minecraft": "1.17.x",
-    "java": ">=16"
-  },
-  "suggests": {
-    "another-mod": "*"
+    "fabricloader": ">=0.7.8+build.186",
+    "fabric": "*"
   }
 }

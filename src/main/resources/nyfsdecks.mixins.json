@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "com.nyfaria.nyfsdecks.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "ShapedRecipeMixin",
+    "SoundEventAccessor"
+  ],
+  "client": [
+    "ItemStackMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
